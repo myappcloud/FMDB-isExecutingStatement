@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'FMDB-isExecutingStatement_Example' do
+  pod 'FMDB-isExecutingStatement', :path => '../'
+
+  target 'FMDB-isExecutingStatement_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
