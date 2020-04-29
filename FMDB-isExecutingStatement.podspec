@@ -25,10 +25,10 @@ Pod::Spec.new do |s|
 
   s.version = '2.7.5'
   s.summary = 'A Cocoa / Objective-C wrapper around SQLite.'
-  s.homepage = 'ttps://github.com/myappcloud/AFNetworking-No-UIKit'
+  s.homepage = 'ttps://github.com/myappcloud/FMDB-isExecutingStatement-true'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author             = { "longzh" => "longzh@mysoft.com.cn" }
-  s.source           = { :git => 'https://github.com/myappcloud/AFNetworking-No-UIKit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/myappcloud/FMDB-isExecutingStatement-true.git', :tag => s.version.to_s }
   s.requires_arc = true
   s.default_subspec = 'standard' 
 
