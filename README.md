@@ -20,7 +20,7 @@ it, simply add the following line to your Podfile:
 pod 'FMDB-isExecutingStatement'
 ```
 ## Warning
-fmdb官方tag2.7.5基础上：不校验isExecutingStatement，注释掉_isExecutingStatement = YES;
+fmdb官方tag2.7.5基础上：不校验isExecutingStatement，注释掉FMDatabase.m 中所有的_isExecutingStatement = YES;
 
 ## Author
 
