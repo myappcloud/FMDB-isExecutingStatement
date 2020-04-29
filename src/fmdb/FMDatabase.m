@@ -576,7 +576,7 @@ static int FMDBDatabaseBusyHandler(void *f, int count) {
         return NO;
     }
     
-    _isExecutingStatement = YES;
+//    _isExecutingStatement = YES;
     
     sqlite_int64 ret = sqlite3_last_insert_rowid(_db);
     
@@ -591,7 +591,7 @@ static int FMDBDatabaseBusyHandler(void *f, int count) {
         return 0;
     }
     
-    _isExecutingStatement = YES;
+//    _isExecutingStatement = YES;
     
     int ret = sqlite3_changes(_db);
     
@@ -811,7 +811,7 @@ static int FMDBDatabaseBusyHandler(void *f, int count) {
         return 0x00;
     }
     
-    _isExecutingStatement = YES;
+//    _isExecutingStatement = YES;
     
     int rc                  = 0x00;
     sqlite3_stmt *pStmt     = 0x00;
@@ -998,7 +998,7 @@ static int FMDBDatabaseBusyHandler(void *f, int count) {
         return NO;
     }
     
-    _isExecutingStatement = YES;
+//    _isExecutingStatement = YES;
     
     int rc                   = 0x00;
     sqlite3_stmt *pStmt      = 0x00;
