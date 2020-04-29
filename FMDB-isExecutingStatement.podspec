@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
 
   s.version = '2.7.5'
   s.summary = 'A Cocoa / Objective-C wrapper around SQLite.'
-  s.homepage = 'ttps://github.com/myappcloud/FMDB-isExecutingStatement-true'
+  s.homepage = 'https://github.com/myappcloud/FMDB-isExecutingStatement-true'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author             = { "longzh" => "longzh@mysoft.com.cn" }
   s.source           = { :git => 'https://github.com/myappcloud/FMDB-isExecutingStatement-true.git', :tag => s.version.to_s }
