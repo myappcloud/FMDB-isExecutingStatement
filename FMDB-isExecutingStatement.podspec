@@ -31,6 +31,8 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/myappcloud/FMDB-isExecutingStatement-true.git', :tag => s.version.to_s }
   s.requires_arc = true
   s.default_subspec = 'standard' 
+  s.ios.deployment_target = '8.0'
+
 
   # use the built-in library version of sqlite3
   s.subspec 'standard' do |ss|
