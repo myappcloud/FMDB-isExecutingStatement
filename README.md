@@ -19,6 +19,8 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'FMDB-isExecutingStatement'
 ```
+##Warning
+fmdb官方tag2.7.5基础上：不校验isExecutingStatement，注释掉_isExecutingStatement = YES;
 
 ## Author
 
