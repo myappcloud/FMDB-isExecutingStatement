@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   fmdb官方tag2.7.5基础上：不校验isExecutingStatement，注释掉_isExecutingStatement = YES;
                    DESC
 
-  s.version = '1.0.0'
+  s.version = '2.7.5'
   s.summary = 'fmdb for 2.7.5'
   s.homepage = 'https://github.com/myappcloud/FMDB-isExecutingStatement'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
