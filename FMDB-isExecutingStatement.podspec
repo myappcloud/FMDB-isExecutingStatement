@@ -42,26 +42,26 @@ Pod::Spec.new do |s|
   end
 
   # use the built-in library version of sqlite3 with custom FTS tokenizer source files
-  s.subspec 'FTS' do |ss|
-    ss.source_files = 'src/extra/fts3/*.{h,m}'
-    ss.dependency 'FMDB/standard'
-  end
+  # s.subspec 'FTS' do |ss|
+  #   ss.source_files = 'src/extra/fts3/*.{h,m}'
+  #   ss.dependency 'FMDB/standard'
+  # end
 
-  # build the latest stable version of sqlite3
-  s.subspec 'standalone' do |ss|
-    ss.xcconfig = { 'OTHER_CFLAGS' => '$(inherited) -DFMDB_SQLITE_STANDALONE' }
-    ss.dependency 'sqlite3'
-    ss.source_files = 'src/fmdb/FM*.{h,m}'
-    ss.exclude_files = 'src/fmdb.m'
-  end
+  # # build the latest stable version of sqlite3
+  # s.subspec 'standalone' do |ss|
+  #   ss.xcconfig = { 'OTHER_CFLAGS' => '$(inherited) -DFMDB_SQLITE_STANDALONE' }
+  #   ss.dependency 'sqlite3'
+  #   ss.source_files = 'src/fmdb/FM*.{h,m}'
+  #   ss.exclude_files = 'src/fmdb.m'
+  # end
 
-  # build with FTS support and custom FTS tokenizer source files
-  s.subspec 'standalone-fts' do |ss|
-    ss.xcconfig = { 'OTHER_CFLAGS' => '$(inherited) -DFMDB_SQLITE_STANDALONE' }
-    ss.source_files = 'src/fmdb/FM*.{h,m}', 'src/extra/fts3/*.{h,m}'
-    ss.exclude_files = 'src/fmdb.m'
-    ss.dependency 'sqlite3/fts'
-  end
+  # # build with FTS support and custom FTS tokenizer source files
+  # s.subspec 'standalone-fts' do |ss|
+  #   ss.xcconfig = { 'OTHER_CFLAGS' => '$(inherited) -DFMDB_SQLITE_STANDALONE' }
+  #   ss.source_files = 'src/fmdb/FM*.{h,m}', 'src/extra/fts3/*.{h,m}'
+  #   ss.exclude_files = 'src/fmdb.m'
+  #   ss.dependency 'sqlite3/fts'
+  # end
 
   # use SQLCipher and enable -DSQLITE_HAS_CODEC flag
   # s.subspec 'SQLCipher' do |ss|
