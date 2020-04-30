@@ -2,24 +2,24 @@
   "name": "FMDB-isExecutingStatement",
   "module_name": "FMDB",
   "description": "fmdb官方tag2.7.5基础上：不校验isExecutingStatement，注释掉_isExecutingStatement = YES;",
-  "version": "2.7.5",
-  "summary": "A Cocoa / Objective-C wrapper around SQLite.",
-  "homepage": "https://github.com/ccgus/fmdb",
-  "license": "MIT",
+  "version": "1.0.0",
+  "summary": "fmdb for 2.7.5",
+  "homepage": "https://github.com/myappcloud/FMDB-isExecutingStatement",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
   "authors": {
-    "August Mueller": "gus@flyingmeat.com"
+    "longzh": "longzh@mysoft.com.cn"
   },
   "source": {
-    "git": "https://github.com/ccgus/fmdb.git",
-    "tag": "2.7.5"
+    "git": "https://github.com/myappcloud/FMDB-isExecutingStatement.git",
+    "tag": "1.0.0"
   },
   "requires_arc": true,
   "default_subspecs": "standard",
   "platforms": {
-    "osx": null,
-    "ios": null,
-    "tvos": null,
-    "watchos": null
+    "ios": "8.0"
   },
   "subspecs": [
     {

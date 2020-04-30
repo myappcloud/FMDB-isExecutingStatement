@@ -1,7 +1,7 @@
 PODS:
-  - FMDB-isExecutingStatement (2.7.5):
-    - FMDB-isExecutingStatement/standard (= 2.7.5)
-  - FMDB-isExecutingStatement/standard (2.7.5)
+  - FMDB-isExecutingStatement (1.0.0):
+    - FMDB-isExecutingStatement/standard (= 1.0.0)
+  - FMDB-isExecutingStatement/standard (1.0.0)
 
 DEPENDENCIES:
   - FMDB-isExecutingStatement (from `../`)
@@ -11,8 +11,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FMDB-isExecutingStatement: 0194804164c93a99093edb121c53975a4700e05c
+  FMDB-isExecutingStatement: 5b8610c6b7266a4f719f771e7a10423c7cfc7b8e
 
-PODFILE CHECKSUM: 02cba6149241c9a4d4caa8fff7925237b38beb0d
+PODFILE CHECKSUM: 094bc8ea8de317b3f057af7aac1f916747d7e67b
 
 COCOAPODS: 1.8.4
