@@ -24,11 +24,11 @@ Pod::Spec.new do |s|
                    DESC
 
   s.version = '1.0.0'
-  s.summary = 'A Cocoa / Objective-C wrapper around SQLite.'
-  s.homepage = 'https://github.com/myappcloud/FMDB-isExecutingStatement-true'
+  s.summary = 'fmdb for 2.7.5'
+  s.homepage = 'https://github.com/myappcloud/FMDB-isExecutingStatement'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author             = { "longzh" => "longzh@mysoft.com.cn" }
-  s.source           = { :git => 'https://github.com/myappcloud/FMDB-isExecutingStatement-true.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/myappcloud/FMDB-isExecutingStatement.git', :tag => s.version.to_s }
   s.requires_arc = true
   s.default_subspec = 'standard' 
   s.ios.deployment_target = '8.0'
