@@ -2,7 +2,7 @@
   "name": "FMDB-isExecutingStatement",
   "module_name": "FMDB",
   "description": "fmdb官方tag2.7.5基础上：不校验isExecutingStatement，注释掉_isExecutingStatement = YES;",
-  "version": "1.0.0",
+  "version": "2.7.5",
   "summary": "fmdb for 2.7.5",
   "homepage": "https://github.com/myappcloud/FMDB-isExecutingStatement",
   "license": {
@@ -14,7 +14,7 @@
   },
   "source": {
     "git": "https://github.com/myappcloud/FMDB-isExecutingStatement.git",
-    "tag": "1.0.0"
+    "tag": "2.7.5"
   },
   "requires_arc": true,
   "default_subspecs": "standard",
@@ -64,20 +64,6 @@
         "sqlite3/fts": [
 
         ]
-      }
-    },
-    {
-      "name": "SQLCipher",
-      "dependencies": {
-        "SQLCipher": [
-
-        ]
-      },
-      "source_files": "src/fmdb/FM*.{h,m}",
-      "exclude_files": "src/fmdb.m",
-      "xcconfig": {
-        "OTHER_CFLAGS": "$(inherited) -DSQLITE_HAS_CODEC -DHAVE_USLEEP=1",
-        "HEADER_SEARCH_PATHS": "SQLCipher"
       }
     }
   ]
